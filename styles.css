@@ -5,35 +5,35 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh; /* Change height to min-height to allow container expansion */
-    background-image: url('background.jpeg'); /* Replace 'background-image.jpg' with the path to your image */
-    background-size: cover; /* Cover the entire background */
-    background-position: center; /* Center the background image */
+    min-height: 100vh; 
+    background-image: url('background.jpeg'); 
+    background-size: cover; 
+    background-position: center;
 }
 
 .converter {
     background-color: #fff;
-    padding: 50px; /* Increase padding for larger container */
+    padding: 50px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
     display: flex;
-    flex-direction: column; /* Align items in a column */
-    justify-content: space-between; /* Add space between elements */
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 h1 {
-    margin-top: -10px; /* Adjust the margin-top to shift the text upward */
-    margin-bottom: 35px; /* Add some space below the text */
+    margin-top: -10px; 
+    margin-bottom: 35px; 
 }
 
 .input-group {
-    margin-bottom: 20px; /* Increase margin between input groups */
+    margin-bottom: 20px;
 }
 
 input[type="number"], input[type="text"], select {
-    padding: 10px; /* Increase padding for larger input fields */
-    width: 200px; /* Increase width for larger input fields */
+    padding: 10px; 
+    width: 200px; 
     border-radius: 5px;
     border: 1px solid #ccc;
 }
@@ -45,7 +45,7 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin: 0 auto; /* Center the button horizontally */
+    margin: 0 auto; 
     display: block;
 }
 
@@ -54,5 +54,5 @@ button:hover {
 }
 
 .button-container {
-    margin-top: 20px; /* Push the button to the bottom */
+    margin-top: 20px; 
 }
