@@ -75,7 +75,3 @@ function meterTo(unit, value) {
             return 'Invalid output unit';
     }
 }
-
-// Implement conversion functions for other length units similarly
-
-// You can also add functions for other types of units like weight, temperature, etc.
